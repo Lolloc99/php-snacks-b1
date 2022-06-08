@@ -1,6 +1,8 @@
+<?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,14 +25,12 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
     ?>
 
     <?php
-    if (strlen($name) < 3) {
-    var_dump("CIAO")
+    if (strlen($name) > 3 && strpos($mail, ".") && strpos($mail, "@") && ctype_digit($age)){
+        echo "Accesso Riuscito!";
+    } else {
+        echo "Accesso Negato.";
     }
     ?>
 
 </body>
 </html>
-
-<!--
-&& (strpos($mail, ".") && strpos($mail, "@")) && is_nan($age)
--->
