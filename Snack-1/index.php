@@ -16,20 +16,20 @@ Olimpia Milano - Cantù | 55-60
 <?php 
 $matches = [
     [
-        "homeTeam" => "Hyperion",
-        "guestTeam" => "Maliwan",
+        "homeTeam" => "Maliwan",
+        "guestTeam" => "Hyperion",
         "ptHomeTeam" => 47,
         "ptGuestTeam" => 60,
     ],
     [
-        "homeTeam" => "Hyperion",
-        "guestTeam" => "Maliwan",
+        "homeTeam" => "Jacobs",
+        "guestTeam" => "AOC",
         "ptHomeTeam" => 60,
         "ptGuestTeam" => 52,
     ],
     [
-        "homeTeam" => "Hyperion",
-        "guestTeam" => "Maliwan",
+        "homeTeam" => "Torgue",
+        "guestTeam" => "Tediore",
         "ptHomeTeam" => 60,
         "ptGuestTeam" => 34,
     ],
